@@ -1,7 +1,7 @@
 {
   "name": "dsforge",
   "version": "0.1.0",
-  "description": "Deconstruct and rebuild design systems pixel-perfect from any live website",
+  "description": "Deconstruct + rebuild design systems pixel-perfect from any live website",
   "type": "module",
   "bin": {
     "dsforge": "src/cli.ts"
