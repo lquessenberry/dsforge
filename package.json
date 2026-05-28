@@ -1,0 +1,26 @@
+{
+  "name": "dsforge",
+  "version": "0.1.0",
+  "description": "Deconstruct and rebuild design systems pixel-perfect from any live website",
+  "type": "module",
+  "bin": {
+    "dsforge": "src/cli.ts"
+  },
+  "scripts": {
+    "dsforge": "tsx src/cli.ts",
+    "build": "tsc",
+    "start": "npm run dsforge"
+  },
+  "dependencies": {
+    "@amzn/style-dictionary": "^3.5.0",
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "playwright": "^1.48.0",
+    "tinycolor2": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.2"
+  }
+}
